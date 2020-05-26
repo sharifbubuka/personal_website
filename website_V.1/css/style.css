@@ -1,0 +1,85 @@
+ @font-face {
+    font-family: connerstone;
+    src: url(../fonts/Cornerstone.ttf);
+    }
+@font-face{
+    font-family: radnika;
+    src: url(../fonts/Radnika-Medium.otf);
+} 
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: red;
+    height: 100%;
+    padding: 2% 10% 3% 10%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 5px solid orange;
+
+}
+
+nav  #logo {
+    margin: 0 auto;
+    font-family: connerstone, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 180%;
+    letter-spacing: .5em;
+    
+}
+
+    nav ul {
+        margin: 0 auto; 
+        position: relative;
+        top: .3em;
+        font-family: connerstone, Arial, Helvetica, sans-serif;
+        font-size: 150%;
+    }
+
+
+    nav ul .nav-item {
+        padding: 0% 3% 0% 3%;
+        margin: 0% 1% 0% 1%;
+        font-weight: 100;
+        font-size: .8em;
+        position: relative;
+        top: 5px;
+        cursor: pointer;
+        background-color: royalblue;
+    }
+
+#background {
+    background-color: skyblue;
+    display: block;
+    height: 1000px;
+    background-image: url(../images/cosmos_background.jpg);
+    box-shadow:inset 0 0 0 2000px rgba(255,255,255, 0.3);
+    background-repeat: repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+#header-text {
+    background-color: skyblue;
+    margin: 0 auto;
+    padding: 40px;
+    height: inherit;
+    width: 70%;
+    display: block;
+    justify-content: center;
+
+}
+
+    #header-text p span {
+        font-family: radnika,  Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 6.5vw;
+    }
+
+
+
+@keyframes condense-navbar
